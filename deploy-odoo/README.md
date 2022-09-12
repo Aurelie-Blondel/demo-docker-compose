@@ -1,4 +1,5 @@
 # deploy odoo
+- prerequisite: install docker-compose 
 - odoo is accessible on port 80
 - odoo and db containers are in odoo_network of type bridge
 - To see if the containers are running:`docker-compose ps` 
